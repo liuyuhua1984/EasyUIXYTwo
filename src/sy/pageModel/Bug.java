@@ -2,7 +2,7 @@ package sy.pageModel;
 
 import java.util.Date;
 
-import org.codehaus.jackson.map.annotate.JsonSerialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import sy.util.JsonDateSerializer;
 
